@@ -3,4 +3,8 @@ def dodawanie():
     b = int(input('Wprowadz druga liczbe '))
     print(a+b)
 
+def get_info():
+    print('Ten program dodaje dwie liczby')
+
+get_info()
 dodawanie()
